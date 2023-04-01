@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bird Watcher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/favicon.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <canvas height="378px" width="672px" id="game"></canvas>
+      <div class="menu-container">
+        <select class="select-bar">
+          <option>Select a Bird</option>
+          <option>Parrot</option>
+          <option>Raven</option>
+          <option>Sparrow</option>
+          <option>Woodpecker</option>
+          <option>Emu</option>
+        </select>
+      </div>
+      <div class="slider-container">
+        <label>Toggle Speed</label>
+        <input type="range" min="1" max="10" value="5" class="slider" />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
